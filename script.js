@@ -44,6 +44,7 @@ cardButton.addEventListener("click", () => {
     errorMessage.classList.remove("hide");
   } else {
     container.classList.remove("hide");
+    addQuestionCard.classList.add("hide");
     errorMessage.classList.add("hide");
     addOrUpdateFlashcard(tempQuestion, tempAnswer);
     question.value = "";
